@@ -593,3 +593,5 @@ Setiap kali tes dijalankan, satu akun `cy...@mail.com` dibuat di database.
 - **Edit profil** tersedia di API (`PATCH /me`), tetapi belum ada form-nya di aplikasi.
 - **CORS** saat ini mengizinkan semua origin. Untuk produksi sebaiknya dibatasi ke alamat frontend.
 - Tes lama `cypress/e2e/test.cy.ts` berasal dari template awal Ionic dan masih mencari teks "Tab 1 page", sehingga akan gagal.
+#   C o o k p e d i a v 2  
+ 
