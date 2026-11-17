@@ -595,4 +595,4 @@ Setiap kali tes dijalankan, satu akun `cy...@mail.com` dibuat di database.
 - Tes lama `cypress/e2e/test.cy.ts` berasal dari template awal Ionic dan masih mencari teks "Tab 1 page", sehingga akan gagal.
 #   C o o k p e d i a v 2  
  #   C o o k p e d i a v 2  
- 
+ "# Cookpediav2" 
