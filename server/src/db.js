@@ -7,7 +7,8 @@ import { INITIAL_RECIPES, INITIAL_PREFERENCES } from './seedData.js';
 import { hashPassword } from './auth.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
-const dataDir = join(here, '..', 'data');
+// DATA_DIR bisa diisi saat deploy (misal /data di Deplexo) agar DB tersimpan di volume permanen.
+const dataDir = process.env.DATA_DIR || join(here, '..', 'data');
 mkdirSync(dataDir, { recursive: true });
 
 export const db = new DatabaseSync(join(dataDir, 'cookpedia.db'));
